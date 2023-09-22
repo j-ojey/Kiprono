@@ -13,9 +13,10 @@ public class Work {
         System.out.print("Enter your weight in kilograms:");
         weight = in.nextInt(); // Assign the input to the variable
 
-        // Calculate BMI
+    
         bmi = (double)weight / ((double)height / 100 * (double)height / 100);
 
         System.out.print("Your BMI is: " + bmi);
+        System.out.print("THIS IS THE END OF THE PROGRAM");
     }
 }
