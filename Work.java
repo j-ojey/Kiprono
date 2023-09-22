@@ -7,6 +7,7 @@ public class Work {
         Scanner in = new Scanner(System.in);
         int weight , height;
         double bmi; // Changed to double to handle decimal values
+        //tHIS IS A LAB CLASS
 
         System.out.print("Enter your height in Cm:");
         height = in.nextInt(); // Assign the input to the variable
